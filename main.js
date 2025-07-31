@@ -5,11 +5,11 @@ const uploadResult = document.getElementById('upload');
 const statusDiv = document.getElementById('status');
 
 
-const downloadFileUrl = 'path/to/your/large-file.dat'; 
+const downloadFileUrl = 'https://link.testfile.org/100MB'; 
 const downloadFileSize = 5 * 1024 * 1024; 
 
 
-const uploadUrl = 'path/to/your/upload-handler.php';
+const uploadUrl = 'https://github.com/clicedvly768/fucktest.github.io/blob/main/upload-handler.php';
 const uploadDataSize = 2 * 1024 * 1024;
 
 startButton.addEventListener('click', runAllTests);
